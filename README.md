@@ -16,7 +16,7 @@ Welcome to the **Git Tutorials** repository! This repository is designed to help
 
 This repository covers the following Git concepts:
 
-### **Basic Git Commands**  [Start here](docs/basic_commands.md)
+### **Basic Git Commands**  [Create a new Repository](docs/basic_commands.md)  [Exiting repositoy](docs/existing_repository.md)
 
 - `git init`, `git add`, `git commit`, `git status`
 
