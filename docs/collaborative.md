@@ -60,11 +60,11 @@ git merge [branch-name]
   Communicate with your team to resolve conflicts collaboratively.
   - Resolve conflicts in your text editor by choosing the desired changes.
   - Stage the resolved files:
-```bash
+  ```bash
     git add [file]
     ```
   - Complete the merge or rebase process
-    ```bash
+  ```bash
     git rebase --continue
     ```
 
