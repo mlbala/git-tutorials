@@ -61,13 +61,12 @@ git merge [branch-name]
   - Resolve conflicts in your text editor by choosing the desired changes.
   - Stage the resolved files:
     ```bash
-    git add [file]
-    ```
+    git add [file]```
   - Complete the merge or rebase process
-    ``bash
+    ```bash
     git rebase --continue
     ```
-    
+
 
 
 ## Example Workflow:
