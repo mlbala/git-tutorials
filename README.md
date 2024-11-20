@@ -20,7 +20,7 @@ This repository covers the following Git concepts:
 
 - `git init`, `git add`, `git commit`, `git status`
 
-### **Branching and Merging**
+### [**Branching and Merging**](docs/branching_merging.md)
 - Creating branches, switching branches, resolving merge conflicts
 
 ### [**Working with Remote Repositories**](docs/existing_repository.md)
