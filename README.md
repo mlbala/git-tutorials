@@ -29,7 +29,7 @@ This repository covers the following Git concepts:
 ### [**Undoing Changes**](docs/undo_changes.md)
 - Reverting commits, resetting, and stashing
 
-### **Collaborative Workflows**
+### [**Collaborative Workflows**](docs/collaborative.md)
 - Pull requests, code reviews, and team collaboration
 
 ---

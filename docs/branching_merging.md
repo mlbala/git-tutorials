@@ -43,6 +43,60 @@ git log
 git log -p -3
 ```
 
+# Resolving Merge Conflicts in Git
+
+Merge conflicts occur when changes in two branches cannot be merged automatically. Git requires manual intervention to resolve the conflicts.
+
+---
+
+## **Steps to Resolve Merge Conflicts**
+
+1. **Attempt to Merge Branches**
+   Start by merging the branch into your current branch:
+   ```bash
+   git merge [branch-name]
+   ```
+2. **Identify Conflicted Files Git**
+```bash
+got status
+```
+3. **Open Conflicted Files**
+Open the conflicted files in your text editor. You’ll see conflict markers like:
+
+```<<<<<<< HEAD
+Your changes
+=======
+Changes from the other branch
+>>>>>>> [commit-hash]
+```
+
+4. **Resolve the Conflicts**
+
+- Decide which changes to keep:
+  - Keep your changes.
+  - Keep the other branch’s changes.
+  - Combine both changes.
+- Edit the file to remove the conflict markers (<<<<<<<, =======, >>>>>>>).
+
+5. **Mark the Conflicts as Resolved**
+
+After resolving the conflicts in all files, stage them:
+```bash
+git add [file]
+```
+
+6. **Complete the Merge**
+Finish the merge process by committing the changes:
+```bash
+git commit -m "Resolve merge conflicts"
+```
+### Abort the Merge (Optional)
+If you want to cancel the merge and return to the state before the merge began:
+```bash
+git merge --abort
+
+```
+
 ## Git Branching and History Commands Summary
 
 | **Command**                  | **Description**                                                                 |
