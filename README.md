@@ -16,14 +16,14 @@ Welcome to the **Git Tutorials** repository! This repository is designed to help
 
 This repository covers the following Git concepts:
 
-### **Basic Git Commands**  [Create a new Repository](docs/basic_commands.md)  [Exiting repositoy](docs/existing_repository.md)
+### **Basic Git Commands**  [Create a new Repository](docs/basic_commands.md)  
 
 - `git init`, `git add`, `git commit`, `git status`
 
 ### **Branching and Merging**
 - Creating branches, switching branches, resolving merge conflicts
 
-### **Working with Remote Repositories**
+### **Working with Remote Repositories** [Exiting repository](docs/existing_repository.md)
 - Cloning, fetching, pulling, and pushing
 
 ### **Undoing Changes**
