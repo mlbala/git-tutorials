@@ -13,8 +13,15 @@ A pull request (PR) is a way to propose changes you've made in your branch to be
    git push origin [branch-name]
 ```
 - Go to the repository on your Git hosting platform
-- Open a pull request by selecting your branch and the branch you want to merge into.
-- Add a title, description, and reviewers for your pull request.
+- Open a pull request 
+  - Selecting your branch as the source and the target branch(e.g., ```main```) for merging.
+  - Add a descriptive title and detailed description for the pull request
+- Assign reviewers wait for the feedback.
+
+### Best Practices for Pull Requests:
+- Use a meaningful title and description for your PR.
+- Keep changes small and focused to make reviews easier.
+- Ensure all tests pass before creating a PR.
 
 2. **Code Reviews**
 Code reviews ensure quality and consistency across the codebase. They involve reviewing changes in pull requests before merging.
@@ -34,21 +41,34 @@ Best Practices for Code Reviews:
 Effective team collaboration involves:
 
 - Branching Strategies:
-  Use branches like feature/branch-name, bugfix/branch-name, and release/branch-name to organize work.
+  - Feature Branches: ```feature/[branch-name]``` for a new features.
+  - Bug Fixes: ```bugfix/[branch-name] ``` for resolving issues.
+  - Release Branches : ```release/[branch-name]``` for preparing release.
 
 - Rebasing and Merging:
 
-- Rebase your branch to keep a clean history:
+- **Rebase your branch to keep a clean history:**
 ```bash
 git rebase main
 ```
 
-- Merge branches after code reviews are complete:
+- **Merge branches after code reviews are complete:**
 ``` bash
 git merge [branch-name]
 ``` 
-- Conflict Resolution:
+- **Conflict Resolution:**
   Communicate with your team to resolve conflicts collaboratively.
+  - Resolve conflicts in your text editor by choosing the desired changes.
+  - Stage the resolved files:
+    ```bash
+    git add [file]
+    ```
+  - Complete the merge or rebase process
+    ``bash
+    git rebase --continue
+    ```
+    
+
 
 ## Example Workflow:
 
