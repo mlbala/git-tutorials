@@ -6,7 +6,6 @@ Welcome to the **Git Tutorials** repository! This repository is designed to help
 
 ## 📋 **Table of Contents**
 - [Topics Covered](#topics-covered)
-- [How to Use This Repository](#how-to-use-this-repository)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -31,22 +30,6 @@ This repository covers the following Git concepts:
 
 ### **Collaborative Workflows**
 - Pull requests, code reviews, and team collaboration
-
----
-
-## 🛠️ **How to Use This Repository**
-
-1. **Read the Tutorials**  
-   Each topic includes a step-by-step tutorial with examples and explanations.
-
-2. **Practice with Exercises**  
-   Practical exercises are included to reinforce your learning.
-
-3. **Follow Along with Example Projects**  
-   Example projects demonstrate Git workflows and best practices.
-
-4. **Explore Additional Resources**  
-   Links to official Git documentation and cheat sheets are provided for further learning.
 
 ---
 
