@@ -26,7 +26,7 @@ This repository covers the following Git concepts:
 ### [**Working with Remote Repositories**](docs/existing_repository.md)
 - Cloning, fetching, pulling, and pushing
 
-### **Undoing Changes**
+### [**Undoing Changes**](docs/undo_changes.md)
 - Reverting commits, resetting, and stashing
 
 ### **Collaborative Workflows**
