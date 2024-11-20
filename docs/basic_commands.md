@@ -39,7 +39,7 @@ This guide walks you through creating a Git repository, initializing it, and usi
    ```
 ## 🔍 **4. Check the Status of Your Repository**
 #### Steps:
-- 1. To see the current status of your repository, including staged and unstaged changes, use:
+1. To see the current status of your repository, including staged and unstaged changes, use:
 ```bash
    git status
  
