@@ -23,7 +23,7 @@ This repository covers the following Git concepts:
 ### **Branching and Merging**
 - Creating branches, switching branches, resolving merge conflicts
 
-### [**Working with Remote Repositories**] (docs/existing_repository.md)
+### [**Working with Remote Repositories**](docs/existing_repository.md)
 - Cloning, fetching, pulling, and pushing
 
 ### **Undoing Changes**
