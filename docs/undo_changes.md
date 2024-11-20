@@ -64,6 +64,8 @@ git log
 ```bash
 git revert <commit-hash>
 ```
+Git will open the default editor (e.g., vim) to confirm the commit message for the revert. Save and close the editor to complete the process.
+
 
 ## **5. Stashing Changes**
 Temporarily save your changes without committing them:
