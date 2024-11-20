@@ -21,18 +21,18 @@ This guide walks you through creating a Git repository, initializing it, and usi
 
 ## 📝 **2. Add Files to the Repository**
 #### Steps:
-- 1. Create or move files into your project directory.
-- 2. Use the following command to add specific files to the staging area:
+1. Create or move files into your project directory.
+2. Use the following command to add specific files to the staging area:
 ```bash
    git add filename 
    ```
-- 3. To add all files in the directory to the staging area, use:
+3. To add all files in the directory to the staging area, use:
 ```bash
    git add . 
    ```
 ## ✅  **3. Commit Changes**
 #### Steps:
-- 1. Once files are staged, you can commit them with a message:
+1. Once files are staged, you can commit them with a message:
 ```bash
    git commit -m "Your commit message"
  
